@@ -37,32 +37,32 @@ export default function Navbar() {
 
                     {/* side menu list  */}
                     <ul>
-                      <li><a href="/"><i class="ri-home-5-fill menu-svg"></i> Home</a></li>
-                      {/* <li><a href="/"><i class="ri-home-smile-fill menu-svg"></i> </a></li> */}
+                      <li><a href="#"><i class="ri-home-5-fill menu-svg"></i> Home</a></li>
+                      {/* <li><a href="#"><i class="ri-home-smile-fill menu-svg"></i> </a></li> */}
                     </ul>
                     <ul>
-                      <li><a href="/"><i class="ri-user-fill menu-svg"></i> Seller Login</a></li>
-                      <li><a href="/"><i class="ri-home-smile-fill menu-svg"></i> Sell Services</a></li>
-                      {/* <li><a href="/"><i class="ri-layout-grid-2-fill menu-svg"></i> All Categories</a></li> */}
-                    </ul>
-
-                    <ul>
-                      <li><a href="/"><i class="ri-discount-percent-fill menu-svg"></i> Offer Zone</a></li>
-                      <li><a href="/"><i class="ri-wallet-3-fill menu-svg"></i> Wallet</a></li>
+                      <li><a href="#"><i class="ri-user-fill menu-svg"></i> Seller Login</a></li>
+                      <li><a href="#"><i class="ri-home-smile-fill menu-svg"></i> Sell Services</a></li>
+                      {/* <li><a href="#"><i class="ri-layout-grid-2-fill menu-svg"></i> All Categories</a></li> */}
                     </ul>
 
                     <ul>
-                      <li><a href="/"><i class="ri-takeaway-fill menu-svg"></i> My Orders </a></li>
-                      <li><a href="/"><i class="ri-shopping-cart-2-fill menu-svg"></i> My Cart </a></li>
-                      <li><a href="/"><i class="ri-account-circle-fill menu-svg"></i> My Account</a></li>
-                      <li><a href="/"><i class="ri-map-pin-2-fill menu-svg"></i> Address</a></li>
-                      <li><a href="/"><i class="ri-coupon-2-fill menu-svg"></i> Coupons</a></li>
-                      <li><a href="/"><i class="ri-notification-3-fill menu-svg"></i> My Notifications</a></li>
-                      <li><a href="/"><i class="ri-notification-3-fill menu-svg"></i> My Notifications</a></li>
+                      <li><a href="#"><i class="ri-discount-percent-fill menu-svg"></i> Offer Zone</a></li>
+                      <li><a href="#"><i class="ri-wallet-3-fill menu-svg"></i> Wallet</a></li>
                     </ul>
 
                     <ul>
-                      <li><a href="/"><i class="ri-customer-service-2-fill menu-svg"></i> Help Center</a></li>
+                      <li><a href="#"><i class="ri-takeaway-fill menu-svg"></i> My Orders </a></li>
+                      <li><a href="#"><i class="ri-shopping-cart-2-fill menu-svg"></i> My Cart </a></li>
+                      <li><a href="#"><i class="ri-account-circle-fill menu-svg"></i> My Account</a></li>
+                      <li><a href="#"><i class="ri-map-pin-2-fill menu-svg"></i> Address</a></li>
+                      <li><a href="#"><i class="ri-coupon-2-fill menu-svg"></i> Coupons</a></li>
+                      <li><a href="#"><i class="ri-notification-3-fill menu-svg"></i> My Notifications</a></li>
+                      <li><a href="#"><i class="ri-notification-3-fill menu-svg"></i> My Notifications</a></li>
+                    </ul>
+
+                    <ul>
+                      <li><a href="#"><i class="ri-customer-service-2-fill menu-svg"></i> Help Center</a></li>
                     </ul>
 
                   </div>
@@ -73,8 +73,8 @@ export default function Navbar() {
             {/* side menu end  */}
 
             <div id='mob-login'>
-              <a href="/"><i class="ri-account-circle-line"></i>Login</a>
-              <a href="/"><i className="ri-shopping-cart-2-line"></i></a>
+              <a href="#"><i class="ri-account-circle-line"></i>Login</a>
+              <a href="#"><i className="ri-shopping-cart-2-line"></i></a>
             </div>
 
           </div>
@@ -87,10 +87,10 @@ export default function Navbar() {
             </div>
 
             <div id="nav-part2">
-              {/* <a href="/">Home</a> */}
-              <a href="/"><i className="ri-shopping-cart-2-line" />Cart</a>
-              <a href="/" className="a-menu">Login</a>
-              <a href="/" className="a-menu">Seller</a>
+              {/* <a href="#">Home</a> */}
+              <a href="#"><i className="ri-shopping-cart-2-line" />Cart</a>
+              <a href="#" className="a-menu">Login</a>
+              <a href="#" className="a-menu">Seller</a>
             </div>
 
           </div>
