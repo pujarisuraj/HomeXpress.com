@@ -1,0 +1,17 @@
+#mob-swiper {
+    /* padding-top: 70px; */
+    top: 55px;
+    margin: 0px 15px;
+}
+
+SwiperSlide,
+img {
+    border-radius: 10px;
+}
+
+@media (min-width: 600px) {
+    #mob-swiper {
+        display: none;
+    }
+
+}

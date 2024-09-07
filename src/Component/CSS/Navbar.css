@@ -1,0 +1,244 @@
+/* font liks */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* header{
+    position: absolute;
+    background-color: white;
+    height: 50px;
+} */
+
+/* navbar style start */
+#nav-bar {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    z-index: 10;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.566);
+    backdrop-filter: blur(20px);
+    width: 100vw;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* serch engine style */
+#nav-part1 {
+    display: flex;
+    width: 25vw;
+}
+
+#nav-part1 img {
+    position: absolute;
+    padding: 7px 11px;
+}
+
+#nav-part1 input {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    position: relative;
+    padding: 8px 35px;
+    /* border: 1px solid #ffffff; */
+    /* border: 1px solid #00000040; */
+    border: 1px solid rgba(0, 0, 0, 0.186);
+    border-radius: 6px;
+    outline: none;
+    font-size: 15px;
+    /* box-shadow: 0 4px 8px rgba(2, 2, 2, 0.2); */
+}
+
+#nav-part2 {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+
+.ri-shopping-cart-2-line {
+    margin-right: 0.5vw;
+    font-size: 23px;
+
+}
+
+#nav-part2 a {
+    text-decoration: none;
+    color: #000000bb;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0vh 1vw;
+}
+
+.a-menu {
+    padding: 5px 20px;
+    border: 1PX solid black;
+    border-radius: 30px;
+    transition: all ease 0.5s;
+}
+
+#nav-part2 .a-menu:hover {
+    background-color: black;
+    color: white;
+}
+
+/* SideMenu Style */
+.menu-container {
+    position: relative;
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 12px;
+    left: 15px;
+    z-index: 11;
+}
+
+.side-menu {
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.437);
+    backdrop-filter: blur(5px);
+    color: #000000;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.side-menu ul {
+    list-style: none;
+    padding: 0px 15px;
+    border-bottom: 0.8px solid rgba(0, 0, 0, 0.219);
+}
+
+.side-menu ul:nth-of-type(1) {
+    border-top: 0.8px solid rgba(0, 0, 0, 0.219);
+}
+
+#close-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 0.8px solid rgba(0, 0, 0, 0.219);
+}
+
+.menu-svg {
+    color: rgba(0, 0, 0, 0.515);
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+.side-menu li {
+    padding: 12px;
+}
+
+.side-menu li:hover {
+    border-radius: 6px;
+    background-color: rgb(0 0 0 / 25%);
+}
+
+.side-menu a {
+    font-size: 0px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.side-menu.closed {
+    top: 55px;
+    transform: translateX(-100%);
+}
+
+.side-menu.open {
+    top: 55px;
+
+    transform: translateX(0);
+}
+
+
+
+
+@media (min-width: 600px) {
+
+    /* SideMenu Style */
+    #mob-login {
+        display: none;
+    }
+
+    #close-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #mob-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px;
+        width: 100vw;
+        height: 50px;
+    }
+
+    #mob-login a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+
+    #mob-login a:nth-of-type(1) {
+        margin-right: 15px;
+    }
+
+    .ri-account-circle-line {
+        font-size: 23px;
+        margin-right: 2px;
+    }
+
+    .side-menu.open,
+    .side-menu.closed {
+        top: 0;
+    }
+
+    /* nav-part1 style  */
+    #nav-bar {
+        box-shadow: none;
+        padding: 0px 15px 10px 15px;
+    }
+
+    #nav-part1 {
+        width: 100vw;
+    }
+
+    #nav-part1 img {
+        padding: 10px;
+    }
+
+    #nav-part1 input {
+        border-radius: 7px;
+        padding: 11px 35px;
+        border: 1px solid rgba(0, 0, 0, 0.186);
+        box-shadow: none;
+    }
+
+    #nav-part2 {
+        display: none;
+    }
+
+}
