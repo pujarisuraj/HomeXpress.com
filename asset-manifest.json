@@ -1,12 +1,18 @@
 {
   "files": {
-    "main.css": "/adsa.com/static/css/main.b61d0ca3.css",
-    "main.js": "/adsa.com/static/js/main.a7338376.js",
+    "main.css": "/adsa.com/static/css/main.c92e6361.css",
+    "main.js": "/adsa.com/static/js/main.55d9ccc1.js",
     "static/js/453.14c11a91.chunk.js": "/adsa.com/static/js/453.14c11a91.chunk.js",
     "static/media/ad4.png": "/adsa.com/static/media/ad4.ab28eebd74d897a7835e.png",
+    "static/media/electrician.png": "/adsa.com/static/media/electrician.30d4d656cb85125f3894.png",
     "static/media/ad2.png": "/adsa.com/static/media/ad2.62616061919b6eb8ffba.png",
     "static/media/ad5.png": "/adsa.com/static/media/ad5.b7390f5d96d9ec677da3.png",
+    "static/media/carpenter.png": "/adsa.com/static/media/carpenter.42b2b51b39b069dd9f0e.png",
+    "static/media/ApplianceRepair.png": "/adsa.com/static/media/ApplianceRepair.577278ba6aa30afbcf18.png",
     "static/media/ad6.png": "/adsa.com/static/media/ad6.ac7447deecb84dffa1cc.png",
+    "static/media/plumber.png": "/adsa.com/static/media/plumber.535684f6141392a21d7c.png",
+    "static/media/cleaning.png": "/adsa.com/static/media/cleaning.bef28c274ff88ad50f94.png",
+    "static/media/painting.png": "/adsa.com/static/media/painting.f195c57155fedb0ba12d.png",
     "static/media/mob-ads6.png": "/adsa.com/static/media/mob-ads6.0e47635b3a919c9a3331.png",
     "static/media/mob-ads1.png": "/adsa.com/static/media/mob-ads1.2e0e3c2c06401a648170.png",
     "static/media/mob-ads4.png": "/adsa.com/static/media/mob-ads4.288dcd4c1c1c5e448bd8.png",
@@ -19,12 +25,12 @@
     "index.html": "/adsa.com/index.html",
     "static/media/menu.svg": "/adsa.com/static/media/menu.90f435c31bad9c06170370f2caac937b.svg",
     "static/media/close-menu.svg": "/adsa.com/static/media/close-menu.b3d5fdf1906418fa1afaa20b431e79d6.svg",
-    "main.b61d0ca3.css.map": "/adsa.com/static/css/main.b61d0ca3.css.map",
-    "main.a7338376.js.map": "/adsa.com/static/js/main.a7338376.js.map",
+    "main.c92e6361.css.map": "/adsa.com/static/css/main.c92e6361.css.map",
+    "main.55d9ccc1.js.map": "/adsa.com/static/js/main.55d9ccc1.js.map",
     "453.14c11a91.chunk.js.map": "/adsa.com/static/js/453.14c11a91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b61d0ca3.css",
-    "static/js/main.a7338376.js"
+    "static/css/main.c92e6361.css",
+    "static/js/main.55d9ccc1.js"
   ]
 }
