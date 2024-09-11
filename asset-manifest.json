@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/adsa.com/static/css/main.c92e6361.css",
-    "main.js": "/adsa.com/static/js/main.55d9ccc1.js",
+    "main.css": "/adsa.com/static/css/main.7c192543.css",
+    "main.js": "/adsa.com/static/js/main.6e040c98.js",
     "static/js/453.14c11a91.chunk.js": "/adsa.com/static/js/453.14c11a91.chunk.js",
+    "static/media/AcRepairVideo.mp4": "/adsa.com/static/media/AcRepairVideo.43b68f135a405dc8f478.mp4",
     "static/media/ad4.png": "/adsa.com/static/media/ad4.ab28eebd74d897a7835e.png",
     "static/media/electrician.png": "/adsa.com/static/media/electrician.30d4d656cb85125f3894.png",
+    "static/media/1.png": "/adsa.com/static/media/1.73e45145a56814bcee61.png",
     "static/media/ad2.png": "/adsa.com/static/media/ad2.62616061919b6eb8ffba.png",
+    "static/media/3.png": "/adsa.com/static/media/3.2cae186d2e50afb479a6.png",
     "static/media/ad5.png": "/adsa.com/static/media/ad5.b7390f5d96d9ec677da3.png",
     "static/media/carpenter.png": "/adsa.com/static/media/carpenter.42b2b51b39b069dd9f0e.png",
     "static/media/ApplianceRepair.png": "/adsa.com/static/media/ApplianceRepair.577278ba6aa30afbcf18.png",
     "static/media/ad6.png": "/adsa.com/static/media/ad6.ac7447deecb84dffa1cc.png",
     "static/media/plumber.png": "/adsa.com/static/media/plumber.535684f6141392a21d7c.png",
+    "static/media/2.png": "/adsa.com/static/media/2.10b660d074b264eaf8df.png",
+    "static/media/4.png": "/adsa.com/static/media/4.3becc8c514e36798aa19.png",
     "static/media/cleaning.png": "/adsa.com/static/media/cleaning.bef28c274ff88ad50f94.png",
     "static/media/painting.png": "/adsa.com/static/media/painting.f195c57155fedb0ba12d.png",
     "static/media/mob-ads6.png": "/adsa.com/static/media/mob-ads6.0e47635b3a919c9a3331.png",
@@ -25,12 +30,12 @@
     "index.html": "/adsa.com/index.html",
     "static/media/menu.svg": "/adsa.com/static/media/menu.90f435c31bad9c06170370f2caac937b.svg",
     "static/media/close-menu.svg": "/adsa.com/static/media/close-menu.b3d5fdf1906418fa1afaa20b431e79d6.svg",
-    "main.c92e6361.css.map": "/adsa.com/static/css/main.c92e6361.css.map",
-    "main.55d9ccc1.js.map": "/adsa.com/static/js/main.55d9ccc1.js.map",
+    "main.7c192543.css.map": "/adsa.com/static/css/main.7c192543.css.map",
+    "main.6e040c98.js.map": "/adsa.com/static/js/main.6e040c98.js.map",
     "453.14c11a91.chunk.js.map": "/adsa.com/static/js/453.14c11a91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c92e6361.css",
-    "static/js/main.55d9ccc1.js"
+    "static/css/main.7c192543.css",
+    "static/js/main.6e040c98.js"
   ]
 }
