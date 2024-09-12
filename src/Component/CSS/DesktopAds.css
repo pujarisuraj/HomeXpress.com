@@ -15,9 +15,9 @@
     margin: 0;
     padding: 0;
   } */
-.mySwiper {
-  /* margin: 0px 15px; */
+.desktop-swiper{
   top: 70px;
+  margin: 0px 10px;
 }
 
 swiper {
@@ -28,7 +28,6 @@ swiper {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,5 +44,4 @@ swiper {
 .mySwiper{
   display: none;
 }
-
 }

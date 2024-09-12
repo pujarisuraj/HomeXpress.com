@@ -22,16 +22,19 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 function Slideshow() {
     return (
         <>
-            <Swiper spaceBetween={30} centeredSlides={true} autoplay={{ delay: 2500, disableOnInteraction: false, }} pagination={{ clickable: true, }} navigation={true} modules={[EffectFade, Autoplay, Pagination, Navigation]} effect="fade" id='my' className=" mySwiper desktop-swiper">
+            <div id='main-desktop'>
+                
+                <Swiper spaceBetween={30} centeredSlides={true} autoplay={{ delay: 2500, disableOnInteraction: false, }} pagination={{ clickable: true, }} navigation={true} modules={[EffectFade, Autoplay, Pagination, Navigation]} effect="fade" className=" mySwiper desktop-swiper">
 
-                <SwiperSlide><img src={ad1} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={ad2} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={ad3} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={ad4} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={ad5} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={ad6} alt="" /></SwiperSlide>
-            </Swiper>
+                    <SwiperSlide><img src={ad1} alt="" /></SwiperSlide>
+                    <SwiperSlide><img src={ad2} alt="" /></SwiperSlide>
+                    <SwiperSlide><img src={ad3} alt="" /></SwiperSlide>
+                    <SwiperSlide><img src={ad4} alt="" /></SwiperSlide>
+                    <SwiperSlide><img src={ad5} alt="" /></SwiperSlide>
+                    <SwiperSlide><img src={ad6} alt="" /></SwiperSlide>
+                </Swiper>
 
+            </div>
         </>
     )
 }

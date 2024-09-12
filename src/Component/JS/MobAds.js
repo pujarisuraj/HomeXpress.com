@@ -27,13 +27,14 @@ export default function MobAds() {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{delay: 2500, disableOnInteraction: false, }} pagination={{clickable: true, }}  modules={[EffectFade,Autoplay, Pagination]} effect="fade" id="mob-swiper">
-        <SwiperSlide><img src={mobads1} alt="img" /></SwiperSlide>
-        <SwiperSlide><img src={mobads2} alt="img" /></SwiperSlide>
-        <SwiperSlide><img src={mobads3} alt="img" /></SwiperSlide>
-        <SwiperSlide><img src={mobads4} alt="img" /></SwiperSlide>
-        <SwiperSlide><img src={mobads5} alt="img" /></SwiperSlide>
-        <SwiperSlide><img src={mobads6} alt="img" /></SwiperSlide>
+        <SwiperSlide><img className='mob-ads-img'  src={mobads1} alt="img" /></SwiperSlide>
+        <SwiperSlide><img className='mob-ads-img' src={mobads2} alt="img" /></SwiperSlide>
+        <SwiperSlide><img className='mob-ads-img' src={mobads3} alt="img" /></SwiperSlide>
+        <SwiperSlide><img className='mob-ads-img' src={mobads4} alt="img" /></SwiperSlide>
+        <SwiperSlide><img className='mob-ads-img' src={mobads5} alt="img" /></SwiperSlide>
+        <SwiperSlide><img className='mob-ads-img' src={mobads6} alt="img" /></SwiperSlide>
       </Swiper>
+        
     </>
   );
 }
