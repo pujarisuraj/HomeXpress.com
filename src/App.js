@@ -10,6 +10,8 @@ import Cleaning from './Component/JS/Services/Cleaning';
 import Electrician from './Component/JS/Services/Electrician';
 import Carpenter from './Component/JS/Services/Carpenter';
 import Painting from './Component/JS/Services/Painting';
+import Applince from './Component/JS/Services/Applince';
+import SofaAd from './Component/JS/Ad/SofaAd';
 // import Page2AcAds from './Component/JS/Page2AcAds';
 // import Services1 from './Component/JS/Services1';
 function App() {
@@ -20,7 +22,9 @@ function App() {
       <MobAds/>
       <MianServices/>
       <Ac/>
+      <SofaAd/>
       <Electrician/>
+      <Applince/>
       <Cleaning/>
       <Carpenter/>
       <Painting/>

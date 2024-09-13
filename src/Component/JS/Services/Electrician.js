@@ -26,7 +26,7 @@ function Electrician() {
                                 <img src={AcAdImag1} alt="" />
                             </div>
                             <div className='serv-info'>
-                                <p className='rating'><i className="ri-star-fill rating-star"> 4.5</i></p>
+                                <p className='rating'><i className="ri-star-fill rating-star"> 5</i></p>
                                 <p className='service-name'>WiFi & CCTV Installation </p>
 
                                 <div className='price'>
@@ -44,7 +44,7 @@ function Electrician() {
                                 <img src={AcAdImag2} alt="" />
                             </div>
                             <div className='serv-info'>
-                                <p className='rating'><i className="ri-star-fill rating-star"> 4.7</i></p>
+                                <p className='rating'><i className="ri-star-fill rating-star"> 4.4</i></p>
                                 <p className='service-name'>Switch & Socket </p>
 
                                 <div className='price'>
@@ -63,7 +63,7 @@ function Electrician() {
                                 <img src={AcAdImag3} alt="" />
                             </div>
                             <div className='serv-info'>
-                                <p className='rating'><i className="ri-star-fill rating-star"> 4.1</i></p>
+                                <p className='rating'><i className="ri-star-fill rating-star"> 4.8</i></p>
                                 <p className='service-name'>Computer & Television </p>
                                 <div className='price'>
                                     <span class="material-symbols-outlined main-price">currency_rupee</span>
@@ -81,7 +81,7 @@ function Electrician() {
                                 <img src={AcAdImag4} alt="" />
                             </div>
                             <div className='serv-info'>
-                                <p className='rating'><i className="ri-star-fill rating-star"> 4.2</i></p>
+                                <p className='rating'><i className="ri-star-fill rating-star"> 4.1</i></p>
                                 <p className='service-name'>MCB & Fuse</p>
                                 <div className='price'>
                                     <span class="material-symbols-outlined main-price">currency_rupee</span>
@@ -99,7 +99,7 @@ function Electrician() {
                                 <img src={AcAdImag5} alt="" />
                             </div>
                             <div className='serv-info'>
-                                <p className='rating'><i className="ri-star-fill rating-star"> 4.2</i></p>
+                                <p className='rating'><i className="ri-star-fill rating-star"> 4.7</i></p>
                                 <p className='service-name'>Fan Service</p>
                                 <div className='price'>
                                     <span class="material-symbols-outlined main-price">currency_rupee</span>
@@ -117,7 +117,7 @@ function Electrician() {
                                 <img src={AcAdImag6} alt="" />
                             </div>
                             <div className='serv-info'>
-                                <p className='rating'><i className="ri-star-fill rating-star"> 4.2</i></p>
+                                <p className='rating'><i className="ri-star-fill rating-star"> 4.9</i></p>
                                 <p className='service-name'>Looking for Something else?</p>
 
                                 <div className='price'>
