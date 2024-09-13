@@ -14,8 +14,6 @@ import mobads3 from '../Assets/Img/mob-ads3.png';
 import mobads4 from '../Assets/Img/mob-ads4.png';
 import mobads5 from '../Assets/Img/mob-ads5.png';
 import mobads6 from '../Assets/Img/mob-ads6.png';
-// effect 
-import { EffectFade } from 'swiper/modules';
 
 // import required modules
 import { Autoplay, Pagination } from 'swiper/modules';
@@ -26,15 +24,15 @@ export default function MobAds() {
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
-        autoplay={{delay: 2500, disableOnInteraction: false, }} pagination={{clickable: true, }}  modules={[EffectFade,Autoplay, Pagination]} effect="fade" id="mob-swiper">
-        <SwiperSlide><img className='mob-ads-img'  src={mobads1} alt="img" /></SwiperSlide>
+        autoplay={{ delay: 2500, disableOnInteraction: false, }} pagination={{ clickable: true, }} modules={[Autoplay, Pagination]} id="mob-swiper">
+        <SwiperSlide><img className='mob-ads-img' src={mobads1} alt="img" /></SwiperSlide>
         <SwiperSlide><img className='mob-ads-img' src={mobads2} alt="img" /></SwiperSlide>
         <SwiperSlide><img className='mob-ads-img' src={mobads3} alt="img" /></SwiperSlide>
         <SwiperSlide><img className='mob-ads-img' src={mobads4} alt="img" /></SwiperSlide>
         <SwiperSlide><img className='mob-ads-img' src={mobads5} alt="img" /></SwiperSlide>
         <SwiperSlide><img className='mob-ads-img' src={mobads6} alt="img" /></SwiperSlide>
       </Swiper>
-        
+
     </>
   );
 }

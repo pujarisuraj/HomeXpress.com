@@ -4,6 +4,8 @@ import search from '../Assets/SVG/search.svg';
 import menu from '../Assets/SVG/menu.svg';
 import closemenu from '../Assets/SVG/close-menu.svg';
 import { motion } from 'framer-motion';
+import user from '../Assets/SVG/sign-in-user.svg'
+import shoping from '../Assets/SVG/shoping.svg'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,12 +28,12 @@ export default function Navbar() {
                 <img src={menu} alt="" />
               </div>
               <div id='mob-login'>
-                <a href="/"><i className="ri-account-circle-line"></i>Login</a>
-                <a href="/"><i className="ri-shopping-cart-2-line"></i></a>
+                <a href="/">Sign in <img src={user} id='user' alt="" /></a>
+                <a href="/"><img src={shoping} alt="" /></a>
               </div>
 
             </div>
-      
+
 
             {/* side menu start  */}
 
@@ -79,7 +81,7 @@ export default function Navbar() {
             {/* side menu end  */}
 
           </div>
-          
+
 
 
           {/* Desktop Navbar  */}

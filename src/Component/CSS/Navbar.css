@@ -206,13 +206,22 @@ body {
         backdrop-filter: blur(20px);
     }
     #mob-login a {
+        display: flex;
+        align-items: center;
         text-decoration: none;
         color: black;
-        font-size: 18px;
+        font-weight: 500;
+
+    }
+    #mob-login{
+        display: flex;
+    }
+    #mob-login #user{
+        margin-left: 5px;
     }
 
-    #mob-login a:nth-of-type(1) {
-        margin-right: 15px;
+    #mob-login a:nth-of-type(2) {
+        margin-left: 15px;
     }
 
     .ri-account-circle-line {

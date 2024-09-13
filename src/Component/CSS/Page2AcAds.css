@@ -3,92 +3,69 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.test {
+.test{
     height: 1000px;
+    width: 100%;
 }
 
-#AcAds-main {
-    display: flex;
-    align-items: center;
+#services-main {
     position: relative;
     margin: 15px;
-    /* padding:1vw; */
     top: 85px;
     max-width: 100%;
-    max-height: 700px;
+    height: 420px;
     background-color: white;
-}
-#AcAds-main h4 {
-    display: none;
+
 }
 
-.AcAd-box {
-    display: flex;
-    border: 1px solid #dadada;
-    flex-direction: column;
-    align-items: center;
-    padding: 0.5vw;
-    margin: 1vw ;
-    height: 40vh;
-    width: 15vw;
+#service-type {
+    padding: 20px;
+}
+#service-type h3 {
+    font-size: 20px;
+    font-weight: 700;
+    
 }
 
-.AcAd-box1,
-.AcAd-box2 {
+
+.service-container{
     display: flex;
-    flex-direction: column;
-    background-color: white;
-    align-items: center;
     justify-content: center;
-    justify-items: center;
-    height: 100%;
-    padding: 2vw;
-    /* margin: 0.5vw;       */
 }
 
-.AcAd-box1 {
-    display: grid;
-    width: 40%;
-    grid-template-columns: 50% 50%;
-    margin-right: 1vw;
+.service-main-box {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    overflow-x: auto;
+}
+.service-main-box::-webkit-scrollbar{
+    width: 0;
 }
 
-.AcAd-box2 {
-    width: 60%;
+
+.service-box {
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    width: 220px;
     border: 1px solid #dadada;
-    overflow: hidden;
-    padding: 2vw;
 }
 
-
-#Ac-repair-video video {
+.service-img {
+    width: 200px;
+}
+.service-img img {
     width: 100%;
-    height: 100%;
 }
 
-.AcAd-item {
-    height: 20vh;
-    width: 14vw;
-}
-
-.AcAd-item img {
-
-    width: 100%;
-    height: 100%;
-}
-
-.Ac-info {
+.serv-info {
     width: 100%;
 
 }
 
-.Ac-info p {
-    margin: 0.5vh 0;
 
-}
-
-.Ac-info p:nth-of-type(1) {
+.rating {
     font-size: 10px;
     padding: 2px;
     background-color: green;
@@ -97,71 +74,101 @@
     height: 10;
     text-align: center;
     width: 40px;
-
-}
-.Ac-info p:nth-of-type(2) {
-    font-size: 1vw;
 }
 
-.Ac-info p:nth-of-type(3) {
-    margin-top:1vh ;
-    font-size: 0.9vw;
+.service-name {
+    font-size: 16px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.main-price {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.span3 {
+    margin-left: 7px;
+}
+
+.span3,
+.span4 {
+    font-size: 12px;
+}
+
+.span5 {
+    margin-left: 8px;
+    font-size: 12px;
+    color: red;
     font-weight: 500;
 }
+
 
 /* Mobile Style  */
 
 @media (max-width:600px) {
-    #AcAds-main {
+    #services-main {
         top: 0;
-        margin: 2vw;
-        flex-wrap: wrap;
+        margin: 8px;
+        height: 710px;
     }
-    #AcAds-main h4 {
-        display: block;
-        padding: 1.5vh 5vw;
+    #service-type {
+        padding: 10px ;
     }
-
-    .AcAd-box1 {
-        margin: 2vw;
-        padding: 0;
-        border: 1px solid black;
-        width: 100%;
-        height: 100%;
+    #service-type h3 {
+        font-size: 15px;    
+    }
+    .service-main-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
     }
 
-    .AcAd-box1 {
-        border: none;
-    }
-    .AcAd-box2{
-        display: none;
-    }
-
-
-    .AcAd-box {
-        margin: 1vw;
-        height: 25vh;
-        width: 40vw;
-        padding: 2vw;
-    }
-    .AcAd-box:hover{
-        border: 1px solid black;
+    .service-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+        height: 210px;
+        width: 160px;
+        border-radius: 5px;
+        background-color: #f3f1f179;
     }
 
-    .AcAd-item {
-        height: 16vh;
-        width: 37vw;
+    .service-img {
+        width: 150px;
+    }
+    .rating {
+        font-size: 8px;
+        padding: 2px;
+        width: 30px;
     }
 
-    .Ac-info p:nth-of-type(2) {
-        font-size: 3vw;
-
+    .service-name {
+        margin: 5px 0px; 
+        font-size: 12px;
     }
 
-    .Ac-info p:nth-of-type(3) {
-        font-size: 3vw;
+    .main-price {
+        font-size: 14px;
+    }
+    
+    .span3 {
+        margin-left: 5px;
+    }
+    
+    .span3,
+    .span4 {
+        font-size: 11px;
+    }
+    
+    .span5 {
+        margin-left: 6px;
+        font-size: 10px;
         font-weight: 500;
-
     }
 
 }

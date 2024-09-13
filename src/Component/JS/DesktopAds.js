@@ -2,8 +2,6 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/effect-fade';
-import { EffectFade } from 'swiper/modules';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import '../CSS/DesktopAds.css';
@@ -24,7 +22,7 @@ function Slideshow() {
         <>
             <div id='main-desktop'>
                 
-                <Swiper spaceBetween={30} centeredSlides={true} autoplay={{ delay: 2500, disableOnInteraction: false, }} pagination={{ clickable: true, }} navigation={true} modules={[EffectFade, Autoplay, Pagination, Navigation]} effect="fade" className=" mySwiper desktop-swiper">
+                <Swiper spaceBetween={30} centeredSlides={true} autoplay={{ delay: 2500, disableOnInteraction: false, }} pagination={{ clickable: true, }} navigation={true} modules={[Autoplay, Pagination, Navigation]} className=" mySwiper desktop-swiper">
 
                     <SwiperSlide><img src={ad1} alt="" /></SwiperSlide>
                     <SwiperSlide><img src={ad2} alt="" /></SwiperSlide>
