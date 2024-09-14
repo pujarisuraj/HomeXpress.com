@@ -4,43 +4,38 @@
     box-sizing: border-box;
 }
 
-#SofaAd{
+#LogisticAd{
     position: relative;
     top: 85px;
     margin: 15px;
     background-color: white;
-    height: 80vh;
+    height: 55vh;
     max-width: 100%;
      display: flex;
     justify-content: center;
     align-items: center;
 }
-#SofaImg{
-    margin: 0px 1vw;
-    width:100vw;
-    height: 75vh;
-    
+#LogisticImg{
+    height:50vh;
+    width: 100vw;
+    margin: 0px 10px ;
 }
-#SofaImg img{
+#LogisticImg img {
     border-radius: 10px;
     height: 100%;
     width: 100%;
 }
 @media (max-width:600px) {
-    #SofaAd{
+    #LogisticAd{
         top: 0;
-        margin: 8px;
-        height: 28vh;
+        margin:0px  8px;
+        height: 20vh;
     }
-    #SofaImg{
-        margin: 0px 5px;
-        width:100vw;
-        height: 26vh;
+    #LogisticImg{
+        margin: 0px 5px ;
+        height:18vh;
+        width: 100vw;
     }
-    #SofaImg img{
-        border-radius: 10px;
-    }
-
 
     
 }

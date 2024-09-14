@@ -16,9 +16,9 @@ function MianServices() {
             <div className="service-div">
                 <div className='sub-menu-top'>
                     <h3>What are you looking for ?</h3>
-                    <span>
+                    <p>
                         <i className="ri-arrow-right-line" id='sub-menu-right-arrow'></i>
-                    </span>
+                    </p>
                 </div>
 
 

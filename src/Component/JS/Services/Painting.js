@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../CSS/Services/Ac.css';
+import '../../CSS/Services/Services.css';
 import img1 from '../../Assets/Img/Painting/1.png'
 import img2 from '../../Assets/Img/Painting/2.png'
 import img3 from '../../Assets/Img/Painting/3.png'
@@ -23,20 +23,16 @@ function Painting() {
                     <div className="service-main-box">
 
                         <div className="service-box">
-
                             <div className="service-img ">
                                 <img src={img1} alt="" />
                             </div>
                             <div className='serv-info'>
-                                <p className='rating'><i className="ri-star-fill rating-star"> 4.5</i></p>
+                                <p className='rating'><i className="ri-star-fill rating-star"> 4.7</i></p>
                                 <p className='service-name'>Wall Painting </p>
-
                                 <div className='price'>
-                                    <span class="material-symbols-outlined main-price">currency_rupee</span>
-                                    <span className='main-price'>3,499</span>
-                                    <span class="material-symbols-outlined span3 ">currency_rupee </span>
-                                    <span className='span4'><strike>6999</strike></span>
-                                    <span className='span5'>-50% off</span>
+                                    <span className='main-price'>₹3,499</span>
+                                    <span className='discount-price'><strike>₹6,999</strike></span>
+                                    <span className='discount'>-50% off</span>
                                 </div>
                             </div>
                         </div>
@@ -46,18 +42,15 @@ function Painting() {
                                 <img src={img6} alt="" />
                             </div>
                             <div className='serv-info'>
-                                <p className='rating'><i className="ri-star-fill rating-star"> 4.7</i></p>
+                                <p className='rating'><i className="ri-star-fill rating-star"> 4.1</i></p>
                                 <p className='service-name'>Furniture Painting</p>
 
                                 <div className='price'>
-                                    <span class="material-symbols-outlined main-price">currency_rupee</span>
-                                    <span className='main-price'>1099</span>
-                                    <span class="material-symbols-outlined span3 ">currency_rupee</span>
-                                    <span className='span4'><strike>1,999</strike></span>
-                                    <span className='span5'>-45% off</span>
+                                    <span className='main-price'>₹1,099</span>
+                                    <span className='discount-price'><strike>₹1,999</strike></span>
+                                    <span className='discount'>-45% off</span>
                                 </div>
                             </div>
-
                         </div>
 
                         <div className="service-box">
@@ -65,17 +58,14 @@ function Painting() {
                                 <img src={img4} alt="" />
                             </div>
                             <div className='serv-info'>
-                                <p className='rating'><i className="ri-star-fill rating-star"> 4.1</i></p>
+                                <p className='rating'><i className="ri-star-fill rating-star"> 4.9</i></p>
                                 <p className='service-name'>Full Home Painting</p>
                                 <div className='price'>
-                                    <span class="material-symbols-outlined main-price">currency_rupee</span>
-                                    <span className='main-price'>9,999</span>
-                                    <span class="material-symbols-outlined span3 ">currency_rupee</span>
-                                    <span className='span4'><strike>19,999</strike></span>
-                                    <span className='span5'>-50% off</span>
+                                    <span className='main-price'>₹9,999</span>
+                                    <span className='discount-price'><strike>₹19,999</strike></span>
+                                    <span className='discount'>-50% off</span>
                                 </div>
                             </div>
-
                         </div>
 
                         <div className="service-box">
@@ -83,17 +73,14 @@ function Painting() {
                                 <img src={img3} alt="" />
                             </div>
                             <div className='serv-info'>
-                                <p className='rating'><i className="ri-star-fill rating-star"> 4.2</i></p>
+                                <p className='rating'><i className="ri-star-fill rating-star"> 4.3</i></p>
                                 <p className='service-name'>Paint Remove </p>
                                 <div className='price'>
-                                    <span class="material-symbols-outlined main-price">currency_rupee</span>
-                                    <span className='main-price'>1749</span>
-                                    <span class="material-symbols-outlined span3 ">currency_rupee</span>
-                                    <span className='span4'><strike>4,999</strike></span>
-                                    <span className='span5'>-65% off</span>
+                                    <span className='main-price'>₹1,749</span>
+                                    <span className='discount-price'><strike>₹4,999</strike></span>
+                                    <span className='discount'>-65% off</span>
                                 </div>
                             </div>
-
                         </div>
 
                         <div className="service-box">
@@ -101,17 +88,14 @@ function Painting() {
                                 <img src={img5} alt="" />
                             </div>
                             <div className='serv-info'>
-                                <p className='rating'><i className="ri-star-fill rating-star"> 4.2</i></p>
+                                <p className='rating'><i className="ri-star-fill rating-star"> 4.8</i></p>
                                 <p className='service-name'>Hall Painting</p>
                                 <div className='price'>
-                                    <span class="material-symbols-outlined main-price">currency_rupee</span>
-                                    <span className='main-price'>2799</span>
-                                    <span class="material-symbols-outlined span3 ">currency_rupee</span>
-                                    <span className='span4'><strike>4,999</strike></span>
-                                    <span className='span5'>-44% off</span>
+                                    <span className='main-price'>₹2,799</span>
+                                    <span className='discount-price'><strike>₹4,999</strike></span>
+                                    <span className='discount'>-44% off</span>
                                 </div>
                             </div>
-
                         </div>
 
                         <div className="service-box">
@@ -119,30 +103,19 @@ function Painting() {
                                 <img src={img2} alt="" />
                             </div>
                             <div className='serv-info'>
-                                <p className='rating'><i className="ri-star-fill rating-star"> 4.2</i></p>
+                                <p className='rating'><i className="ri-star-fill rating-star"> 4.6</i></p>
                                 <p className='service-name'>Waterproofing </p>
-
                                 <div className='price'>
-                                    <span class="material-symbols-outlined main-price">currency_rupee</span>
-                                    <span className='main-price'>4199</span>
-                                    <span class="material-symbols-outlined span3 ">currency_rupee</span>
-                                    <span className='span4'><strike>5,999</strike></span>
-                                    <span className='span5'>-30% off</span>
+                                    <span className='main-price'>₹4,199</span>
+                                    <span className='discount-price'><strike>₹5,999</strike></span>
+                                    <span className='discount'>-30% off</span>
                                 </div>
                             </div>
-
                         </div>
 
                     </div>
                 </div>
-
-
             </div>
-
-            <div className="test">
-
-            </div>
-
 
         </>
     )

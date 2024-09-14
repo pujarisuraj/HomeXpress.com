@@ -12,24 +12,30 @@ import Carpenter from './Component/JS/Services/Carpenter';
 import Painting from './Component/JS/Services/Painting';
 import Applince from './Component/JS/Services/Applince';
 import SofaAd from './Component/JS/Ad/SofaAd';
+import PaintingAd from './Component/JS/Ad/PaintingAd';
+import Approintment from './Component/JS/Ad/Approintment';
+import LogisticAd from './Component/JS/Ad/LogisticAd';
 // import Page2AcAds from './Component/JS/Page2AcAds';
 // import Services1 from './Component/JS/Services1';
 function App() {
   return (
     <>
       <Navbar />
-      <DesktopAds/>
-      <MobAds/>
-      <MianServices/>
-      <Ac/>
-      <SofaAd/>
-      <Electrician/>
-      <Applince/>
-      <Cleaning/>
-      <Carpenter/>
-      <Painting/>
-      
-    
+      <DesktopAds />
+      <MobAds />
+      <MianServices />
+      <Ac />
+      <SofaAd />
+      <Electrician />
+      <Approintment/>
+      <Applince />
+      <Cleaning />
+      <LogisticAd/>
+      <Carpenter />
+      <PaintingAd />
+      <Painting />
+
+
 
       {/* <Page2AcAds/> */}
       {/* <Services1/> */}
