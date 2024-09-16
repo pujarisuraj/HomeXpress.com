@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#footer-main{
+    position: relative;
+    top: 85px;
+    background-color: gray;
+    height: 380px;
+    /* margin: 15px; */
+    color: white;
+}
+#contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 15vh;
+    margin-top: 3vh;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#contact h3{
+    font-size: 1.5vw;
+
+}
+#contact a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 20px;
+    padding: 0.5vw 2vw ;
+    border-radius: 5px;
+
+}
+#about-container{
+    width: 80vw;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-social-media{
+    display: flex;
+}
+#footer-social-media a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 25px;
+}
+.footer-social-media a:hover{
+    background-color: rgba(212, 210, 210, 0.314);
+    border-radius: 50%;
+}
+
+#footer-menu{
+    display: flex;
+}
+
+.footer-menu-info{
+    margin: 0 1vw;
+}
+.footer-menu-info h4{
+    margin: 10px 0px; 
+}
+.footer-menu-info p{
+    font-size: 15px;
+}
+.copyright p{
+    font-size: 14px;
+}
+
+/* Desktop size hidding this containers */
+#mob-contact{
+    display: none;
+}
+.mob-footer-social-media{
+    display: none;
+}
+@media (max-width:600px) {
+    #footer-main{
+        top: 0px;
+        margin: 0px ;
+        height:300px;
+    }
+    #contact{
+        display: none;
+    }
+   #footer-social-media{ 
+        display: none;
+    }
+
+    #about-container{
+        margin-top: 10px;
+        height: 150px;
+        align-items: baseline;
+        width: 100%;
+
+    }
+    #footer-menu{
+        margin-left: 20px;
+    }
+      
+    .footer-menu-info h4{
+        font-size: 15px;
+    }
+    #footer-menu p{
+        font-size: 13px;
+        margin:  5px 0;  
+    }
+
+    .mob-contact-main{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-bottom: 1px solid white;
+    }
+    #mob-contact{
+        display: block;
+        width: 80vw;
+    }
+    #mob-contact h4{
+        font-size: 15px;
+    
+    }
+    .mob-footer-social-media{
+        display: block ;
+        margin-top: 20px;
+    }
+    .mob-footer-social-media a{
+        font-size: 25px;
+        margin: 10px;
+        text-decoration: none;
+        color: white;
+    }
+    .copyright{
+        margin-top: 30px;
+    }
+    .copyright p{
+        font-size: 12px;
+    }
+}
+
+
+

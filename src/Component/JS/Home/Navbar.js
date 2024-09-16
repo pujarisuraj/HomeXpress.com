@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import '../CSS/Navbar.css';
-import search from '../Assets/SVG/search.svg';
-import menu from '../Assets/SVG/menu.svg';
-import closemenu from '../Assets/SVG/close-menu.svg';
+import '../../CSS/Home/Navbar.css';
+import search from '../../Assets/SVG/search.svg';
+import menu from '../../Assets/SVG/menu.svg';
+import closemenu from '../../Assets/SVG/close-menu.svg';
 import { motion } from 'framer-motion';
-import user from '../Assets/SVG/sign-in-user.svg'
-import shoping from '../Assets/SVG/shoping.svg'
+import user from '../../Assets/SVG/sign-in-user.svg'
+import shoping from '../../Assets/SVG/shoping.svg'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
