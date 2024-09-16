@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/adsa.com/static/css/main.163ce173.css",
+    "main.css": "/adsa.com/static/css/main.bb679311.css",
     "main.js": "/adsa.com/static/js/main.66046357.js",
     "static/js/453.69c3f36f.chunk.js": "/adsa.com/static/js/453.69c3f36f.chunk.js",
     "static/media/SofaAd.png": "/adsa.com/static/media/SofaAd.60533f6e62317654be2a.png",
@@ -25,12 +25,12 @@
     "static/media/menu.svg": "/adsa.com/static/media/menu.90f435c31bad9c06170370f2caac937b.svg",
     "static/media/shoping.svg": "/adsa.com/static/media/shoping.50dfde985361cc452241ec806c8d9264.svg",
     "static/media/close-menu.svg": "/adsa.com/static/media/close-menu.b3d5fdf1906418fa1afaa20b431e79d6.svg",
-    "main.163ce173.css.map": "/adsa.com/static/css/main.163ce173.css.map",
+    "main.bb679311.css.map": "/adsa.com/static/css/main.bb679311.css.map",
     "main.66046357.js.map": "/adsa.com/static/js/main.66046357.js.map",
     "453.69c3f36f.chunk.js.map": "/adsa.com/static/js/453.69c3f36f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.163ce173.css",
+    "static/css/main.bb679311.css",
     "static/js/main.66046357.js"
   ]
 }
