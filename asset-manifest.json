@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HomeXpress.com/static/css/main.b58eae13.css",
-    "main.js": "/HomeXpress.com/static/js/main.fbfc5170.js",
+    "main.js": "/HomeXpress.com/static/js/main.845af8ec.js",
     "static/js/453.be234214.chunk.js": "/HomeXpress.com/static/js/453.be234214.chunk.js",
     "static/media/SofaAd.png": "/HomeXpress.com/static/media/SofaAd.60533f6e62317654be2a.png",
     "static/media/PaintingAdImg.jpg": "/HomeXpress.com/static/media/PaintingAdImg.e3bbdbeedce3cf8d34f5.jpg",
@@ -26,11 +26,11 @@
     "static/media/shoping.svg": "/HomeXpress.com/static/media/shoping.50dfde985361cc452241ec806c8d9264.svg",
     "static/media/close-menu.svg": "/HomeXpress.com/static/media/close-menu.b3d5fdf1906418fa1afaa20b431e79d6.svg",
     "main.b58eae13.css.map": "/HomeXpress.com/static/css/main.b58eae13.css.map",
-    "main.fbfc5170.js.map": "/HomeXpress.com/static/js/main.fbfc5170.js.map",
+    "main.845af8ec.js.map": "/HomeXpress.com/static/js/main.845af8ec.js.map",
     "453.be234214.chunk.js.map": "/HomeXpress.com/static/js/453.be234214.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b58eae13.css",
-    "static/js/main.fbfc5170.js"
+    "static/js/main.845af8ec.js"
   ]
 }
