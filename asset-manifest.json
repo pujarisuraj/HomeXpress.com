@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HomeXpress.com/static/css/main.81cf2d7a.css",
-    "main.js": "/HomeXpress.com/static/js/main.4e5c79f0.js",
+    "main.css": "/HomeXpress.com/static/css/main.76892eb5.css",
+    "main.js": "/HomeXpress.com/static/js/main.1cbed352.js",
     "static/js/453.be234214.chunk.js": "/HomeXpress.com/static/js/453.be234214.chunk.js",
     "static/media/SofaAd.png": "/HomeXpress.com/static/media/SofaAd.60533f6e62317654be2a.png",
     "static/media/PaintingAdImg.jpg": "/HomeXpress.com/static/media/PaintingAdImg.e3bbdbeedce3cf8d34f5.jpg",
@@ -18,16 +18,17 @@
     "static/media/cleaning.png": "/HomeXpress.com/static/media/cleaning.bef28c274ff88ad50f94.png",
     "static/media/7.png": "/HomeXpress.com/static/media/7.f467bd0001e20b1d5924.png",
     "static/media/painting.png": "/HomeXpress.com/static/media/painting.f195c57155fedb0ba12d.png",
+    "static/media/LogisticService.png": "/HomeXpress.com/static/media/LogisticService.e76dc2ec17f7756152a5.png",
     "index.html": "/HomeXpress.com/index.html",
     "static/media/sign-in-user.svg": "/HomeXpress.com/static/media/sign-in-user.128192e85ad67284f193ccd8eeda27cd.svg",
     "static/media/menu.svg": "/HomeXpress.com/static/media/menu.90f435c31bad9c06170370f2caac937b.svg",
     "static/media/close-menu.svg": "/HomeXpress.com/static/media/close-menu.b3d5fdf1906418fa1afaa20b431e79d6.svg",
-    "main.81cf2d7a.css.map": "/HomeXpress.com/static/css/main.81cf2d7a.css.map",
-    "main.4e5c79f0.js.map": "/HomeXpress.com/static/js/main.4e5c79f0.js.map",
+    "main.76892eb5.css.map": "/HomeXpress.com/static/css/main.76892eb5.css.map",
+    "main.1cbed352.js.map": "/HomeXpress.com/static/js/main.1cbed352.js.map",
     "453.be234214.chunk.js.map": "/HomeXpress.com/static/js/453.be234214.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81cf2d7a.css",
-    "static/js/main.4e5c79f0.js"
+    "static/css/main.76892eb5.css",
+    "static/js/main.1cbed352.js"
   ]
 }
