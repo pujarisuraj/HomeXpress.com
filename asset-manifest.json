@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/HomeXpress.com/static/css/main.537f75c8.css",
-    "main.js": "/HomeXpress.com/static/js/main.01425019.js",
+    "main.js": "/HomeXpress.com/static/js/main.422dded8.js",
     "static/js/453.be234214.chunk.js": "/HomeXpress.com/static/js/453.be234214.chunk.js",
     "static/media/SofaAd.png": "/HomeXpress.com/static/media/SofaAd.60533f6e62317654be2a.png",
     "static/media/PaintingAdImg.jpg": "/HomeXpress.com/static/media/PaintingAdImg.e3bbdbeedce3cf8d34f5.jpg",
-    "static/media/6.png": "/HomeXpress.com/static/media/6.0e47635b3a919c9a3331.png",
+    "static/media/2.png": "/HomeXpress.com/static/media/2.898c0adf68484b9c27fd.png",
     "static/media/1.png": "/HomeXpress.com/static/media/1.ec13e160d9a8b79810eb.png",
     "static/media/4.png": "/HomeXpress.com/static/media/4.288dcd4c1c1c5e448bd8.png",
     "static/media/electrician.png": "/HomeXpress.com/static/media/electrician.30d4d656cb85125f3894.png",
-    "static/media/2.png": "/HomeXpress.com/static/media/2.898c0adf68484b9c27fd.png",
-    "static/media/Approintment.png": "/HomeXpress.com/static/media/Approintment.918b25742c345ad79fe1.png",
     "static/media/3.png": "/HomeXpress.com/static/media/3.5dcc74cdd1922dbf121e.png",
+    "static/media/6.png": "/HomeXpress.com/static/media/6.3848fb2dd72fdeb96aff.png",
+    "static/media/Approintment.png": "/HomeXpress.com/static/media/Approintment.918b25742c345ad79fe1.png",
     "static/media/5.png": "/HomeXpress.com/static/media/5.1a284b3005a376c04822.png",
     "static/media/carpenter.png": "/HomeXpress.com/static/media/carpenter.42b2b51b39b069dd9f0e.png",
     "static/media/ApplianceRepair.png": "/HomeXpress.com/static/media/ApplianceRepair.577278ba6aa30afbcf18.png",
@@ -24,11 +24,11 @@
     "static/media/menu.svg": "/HomeXpress.com/static/media/menu.90f435c31bad9c06170370f2caac937b.svg",
     "static/media/close-menu.svg": "/HomeXpress.com/static/media/close-menu.b3d5fdf1906418fa1afaa20b431e79d6.svg",
     "main.537f75c8.css.map": "/HomeXpress.com/static/css/main.537f75c8.css.map",
-    "main.01425019.js.map": "/HomeXpress.com/static/js/main.01425019.js.map",
+    "main.422dded8.js.map": "/HomeXpress.com/static/js/main.422dded8.js.map",
     "453.be234214.chunk.js.map": "/HomeXpress.com/static/js/453.be234214.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.537f75c8.css",
-    "static/js/main.01425019.js"
+    "static/js/main.422dded8.js"
   ]
 }
