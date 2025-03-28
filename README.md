@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# **HomeXpress**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 **Excited to share my latest project: "Online Home Services Provider Portal"** 🚀  
+**Project Title:** HomeXpress  
+**Project Status:** Work in Progress  
+**Demo:** [View the Demo](https://pujarisuraj.github.io/HomeXpress.com/)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Project Overview
 
-### `npm start`
+**Description:**  
+HomeXpress is an online platform that connects customers with skilled local service providers. Through this portal, users can easily browse, order, and pay for a variety of home services such as beauty and personal care, plumbing, electrical work, appliance repair, CCTV & security system installation, gardening, and landscaping. Simultaneously, service providers can register, manage orders in real time, and expand their business reach.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Purpose & Motivation:**  
+The primary goal of HomeXpress is to modernize the home services industry by providing a secure, user-friendly digital platform. This portal bridges the gap between customers and local service providers, offering a convenient, transparent, and efficient way to access essential home services.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Secure Authentication & User Management
+- **User Registration & Login:**  
+  - Securely log in and register using JWT authentication tokens.  
+  - Once logged in, users can access and edit their profiles, including uploading a profile image for personalization.
 
-### `npm run build`
+### Intuitive Navigation
+- **Home & Service Navigation:**  
+  - The homepage provides quick access to specific service sections, enabling users to navigate easily and find the services they need.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Detailed Booking & Payment Process
+- **Booking Page:**  
+  - Displays detailed information about the selected service to help customers make informed decisions.
+- **Payment Page:**  
+  - Collects necessary customer data securely.  
+  - Integrated with Razorpay, ensuring that all transactions are safe and secure.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Direct Communication Channels
+- **WhatsApp & Email Integration:**  
+  - A dedicated WhatsApp icon allows users to instantly chat with the owner, with a preset default message for convenience.  
+  - An email icon directly opens the owner’s email page, complete with a predefined default email setup.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Data Protection & Content Security
+- **Content Security Measures:**  
+  - Prevents unauthorized copying of service images and descriptions.  
+  - Disallows pasting of external data and restricts the inspect element feature to avoid any unauthorized or malicious activities on the website.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technology Stack
+- **Front-End:** React.js, HTML, CSS  
+- **Back-End:** Spring Boot (with JWT Authentication)  
+- **Database:** MySQL  
+- **Server Hosting:** AWS  
+- **Payment Gateway:** Razorpay  
+- **Additional Security:** Measures to prevent content theft and unauthorized actions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
